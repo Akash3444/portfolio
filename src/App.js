@@ -6,7 +6,7 @@ import Contact from "./components/Contact";
 
 function App() {
 	return (
-		<div class='space-y-14'>
+		<div className='space-y-14'>
 			<Hero />
 			<Section title='Projects' id='projects' Section={ProjectList} />
 			<Section title='Skills' id='skills' Section={Skills} />

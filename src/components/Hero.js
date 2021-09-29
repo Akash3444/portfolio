@@ -13,7 +13,7 @@ const Hero = () => {
 			</div>
 
 			<img
-				src='https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShortFlat&accessoriesType=Blank&hairColor=Black&facialHairType=Blank&clotheType=BlazerShirt&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Light'
+				src='/avatar.svg'
 				height='200'
 				width='200'
 				className='mx-auto'

@@ -9,9 +9,10 @@ const Project = ({ id, title, description, links, skills }) => {
 				{/* Image */}
 				<div className='aspect-w-16 aspect-h-10 sm:aspect-h-9'>
 					<img
-						src={`/project-${id}.png`}
+						src={`/project-${id}.webp`}
 						alt='Project'
 						className='block max-w-full object-cover'
+            loading="lazy"
 					/>
 				</div>
 
